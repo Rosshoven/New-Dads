@@ -1,10 +1,10 @@
 # New-Dads
 ## Fictional Club for new Dads
 
-#Usage
+# Usage
 ## Non-functional. It is a practice project with Flexbox from Codecademy
 
-#Contributing 
+# Contributing 
 ## None, thank you.
 
 # License
