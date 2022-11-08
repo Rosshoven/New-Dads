@@ -1,0 +1,231 @@
+* {
+    box-sizing: border-box;
+   
+  }
+
+hr {
+  margin: 0;
+  padding: 0;
+}
+ 
+  body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+  }
+
+
+.topnav {
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #194a38;
+    color: cornsilk;
+  }
+/*Banner*/
+h1 {
+  font-size: 3rem;
+  padding: 0%;
+  background-color: #194a38;
+  color: whitesmoke;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin: 0%;
+  color: whitesmoke;
+  background-color: #194a38;
+  margin-top: 0;
+}
+
+  .banner {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-image: url("kelli-mcclintock-wBgAVAGjzFg-unsplash.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 42em;
+  }
+
+  p {
+      color: black;
+      font-size: 1rem;
+      padding-left: 12em;
+  }
+
+  .container1 {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+  
+  h3 a {
+    color: rgb(157, 141, 141);
+    text-decoration: none;
+  }
+  h3 a:hover {
+    color: black;
+  }
+  
+  a {
+    text-decoration: none;
+    color:rgb(88, 82, 82);
+  }
+
+  @media only screen and (max-width: 975px) {
+    
+    .banner {  
+      /*background-color: #c1ecdc;*/
+      border-radius: 7%;
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      width: 100%;
+      height: 10%;
+      opacity: .8;
+    }
+    .container1 {
+        font-size: 1rem;
+          background-color: #c1ecdc;
+          border-radius: 7%;       
+          width: 100%;
+          opacity: .8;
+    }
+      h1, h2 {
+        margin-top: 12%;
+      }
+      .topnav {
+        z-index: 1;
+      }
+      }
+    
+      
+    
+  
+  /*NEWS*/
+  .news {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #194a38;
+    color: whitesmoke;
+    align-items: start;
+    padding-left: 5%;
+    padding-top: 2%;
+  }
+
+  h3 {
+    margin-top: 0;
+  }
+
+  /*Topics*/
+
+  img {
+    width: 25em;
+    height: 25em;
+  }
+
+  .topics {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    background-color: #d3d3a2;
+    padding: 1%
+  }
+ 
+  #topics {
+    display:flex;
+    justify-content: center;
+    align-items: start;
+    background-color: #d3d3a2;
+    color: #194a38;
+    padding: 3%;
+  }
+
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*Sign -Up*/
+  .sign-up {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 2em 10em;
+    border-radius: 4%;
+    width: 48ffem;
+  }
+
+  input, .register, form {
+    width: 50%;
+    flex-flow: column wrap;
+    padding: 5%;
+    border-radius: 4%;
+    /*box-shadow: 2px 8px #888888;*/
+  }
+
+  .forms {
+    display: flex;
+    justify-content: center;
+    padding: 5% 20%;
+    background-image: url("heike-mintel-Os2WMpNWpfM-unsplash.jpg");
+    background-size: cover;
+  }
+
+  form h2 {
+    width: 30em;
+  }
+
+  /*BOOKS*/
+  .books {
+    background-color: #d3d3a2;
+    color: #194a38;
+    display: flex;
+    justify-content: start;
+    padding: 2% 4% 1%;
+  }
+  .book {
+    width: 20em;
+    height: 20em;
+  }
+
+  <!--FOOTER-->
+  .footer, footer {
+    display: flex;
+    justify-content: space-between;
+    border-spacing: 5%;
+    background-color: rgb(217, 211, 211);
+  }
+
+  .footer h4 {
+    padding: 0% 3%;
+  }
