@@ -65,7 +65,7 @@ h2 {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      background-image: url("kelli-mcclintock-wBgAVAGjzFg-unsplash.jpg");
+      background-image: url("./Images/Images/kelli-mcclintock-wBgAVAGjzFg-unsplash.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       width: 100%;
@@ -197,7 +197,7 @@ h2 {
     display: flex;
     justify-content: center;
     padding: 5% 20%;
-    background-image: url("heike-mintel-Os2WMpNWpfM-unsplash.jpg");
+    background-image: url("./Images/Images/heike-mintel-Os2WMpNWpfM-unsplash.jpg");
     background-size: cover;
   }
 
